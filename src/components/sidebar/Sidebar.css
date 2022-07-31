@@ -26,6 +26,10 @@ top: 0;
     color: #359DD6;
 }
 
+
+.sidebar_logo{
+    width: 90%;
+}
 .sidebar_icon{
     width: 50px;
     height: 25px;

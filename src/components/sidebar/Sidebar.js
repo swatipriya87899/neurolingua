@@ -67,7 +67,7 @@ function changeRoute (url){
     
   return (
     <div className='sidebar'>
-        <div>
+        <div className='sidebar_logo'>
             <img src={logo}></img>
         </div>
 

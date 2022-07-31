@@ -25,9 +25,9 @@ const Header = (props) => {
 
   return (
     <div className='header'>
-        <div>Coupans</div>
-        <div>Most Recent</div>
-        <div>Special</div>
+        <div className='header_title' onClick={()=>changeRoute("/coupans")}>Coupans</div>
+        <div className='header_title' onClick={()=>changeRoute("/most-recent")}>Most Recent</div>
+        <div className='header_title' onClick={()=>changeRoute("/special")}>Special</div>
         <button className='secondary_button' onClick={()=>changeRoute("/expired")}>Expired</button>
         <button className='secondary_button round_button' onClick={onClickHandler}>+</button>
     </div>
